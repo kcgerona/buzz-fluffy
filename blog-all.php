@@ -77,31 +77,31 @@
 					<div class="col-md-6">
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The New Buzzooka: A brand Strategy Design Consultancy</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The Buzzooka Spring 2017  Internship</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">How do you Know if Your Idea  Sucks?</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The New Buzzooka: A brand Strategy Design Consultancy</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The New Buzzooka: A brand Strategy Design Consultancy</h2>
 							</a>
 						</div>
@@ -109,31 +109,31 @@
 					<div class="col-md-6">
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The New Buzzooka: A brand Strategy Design Consultancy</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The New Buzzooka: A brand Strategy Design Consultancy</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The New Buzzooka: A brand Strategy Design Consultancy</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">The New Buzzooka: A brand Strategy Design Consultancy</h2>
 							</a>
 						</div>
 						<div class="blog-link-group">
 							<small class="category">NEWS</small>
-							<a href="#" class="btn-link">
+							<a href="/?page=blog" class="btn-link">
 								<h2 class="title">10 Typography Rules</h2>
 							</a>
 						</div>
