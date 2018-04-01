@@ -1,0 +1,72 @@
+
+/***********************************************
+* 				MEDIA QUERY
+/***********************************************/
+@media(min-width:992px)  {
+
+	.leftmenutrigger {
+		display: block;
+		margin: 7px 20px 4px 0;
+		cursor: pointer;
+	}
+	#wrapper {
+		padding: 90px 15px 0px 15px; 
+	}
+	.navbar-nav.side-nav.open  {
+		left:0;
+	}
+	.navbar-nav.side-nav {
+		background: #212f4f;
+		box-shadow: 2px 1px 2px rgba(0,0,0,.1);
+		position:fixed;
+		top:56px;
+		flex-direction: column!important;
+		left:-320px;
+		width:300px;
+		overflow-y:auto;
+		bottom:0;
+		overflow-x:hidden;
+		padding-bottom:40px;
+		/*max-height: 499px;*/
+	}
+	.navbar-expand-lg .navbar-nav .sub-menu li {
+		text-indent: 20px;
+		border-top: 1px solid #2e4376;
+		background-color: #15213b;
+	}
+}
+
+@media (min-width:375px) and (max-width: 992px)  {
+	.navbar-brand {
+		display: inline-block;
+		margin-left: 25%;
+		margin-right: auto ;
+
+	}
+	.row {
+		height: 100%;
+	}
+	.row :not(.carousel) .card {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.header-banner {
+		background-size: 100% 100%;
+		height: 300px;
+	}
+	.header-banner .header-banner-text {
+		margin-top: 110px;
+	}
+	.header-banner .header-banner-text h3{
+		font-size: 14px !important;
+	}
+	.header-banner .header-banner-text h1{
+		font-size: 30px !important;
+		margin-top: 10px;
+	}
+	.header-banner .header-banner-text h4{
+		font-size: 14px !important;
+		margin-top: 10px;
+	}
+}

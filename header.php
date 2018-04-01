@@ -3,10 +3,10 @@
   <a class="navbar-brand text-center" href="/">
     <img src="../images/logo-blue.png" class="img">
   </a>
-  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+  <!-- <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
+  </button> -->
   <div class="collapse navbar-collapse" id="navbarText">
 
     <ul class="navbar-nav animate side-nav">
@@ -40,17 +40,10 @@
         <a class="nav-link" href="/?page=contact-us">CONTACT</a>
       </li>
     </ul>
-
-    <ul class="navbar-nav ml-md-auto d-md-flex">
-      <li class="nav-item">
-        <form>
-
-          <button type="button" class="btn btn-link btn-search"><span class="fa fa-search text-dark"></span></button>
-        </form>
-      </li>
-    </ul>
   </div>
+  <button type="button" class="btn btn-link btn-search"><span class="fa fa-search text-dark"></span></button>
 </nav>
+
 <div class="w-100 bg-light fixed-top search-box pl-5 pr-5 pt-2 pb-2 animate hidden">
   <small class="d-block">Search for something?</small>
   <input type="text" name="" class="d-block border-0" placeholder="Logo, website, mobile ...">
