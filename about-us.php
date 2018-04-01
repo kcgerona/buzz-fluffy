@@ -11,8 +11,8 @@
 
 <div class="row align-items-center our-story">
 	<div class="col-md-4 offset-md-2">
-		<h2>OUR STORY</h2>
-		<p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<h2><span class="text-l-gray">OUR</span> <b>STORY</b> <span class="underline-blue mt-3"></span></h2>
+		<p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -27,9 +27,9 @@
 
 <div class="row align-items-center our-team">
 	<div class="col-md-8 offset-md-2">
-		<h2 class="text-center">OUR TEAM</h2>
+		<h2 class="text-center"><span class="text-l-gray">OUR</span> <b>TEAM</b> <span class="underline-blue mx-auto mt-3"></span></h2>
 		<div class="card-deck mt-5">
-			<div class="card pt-4 pb-2">
+			<div class="card pt-4 pb-2 border-0">
 				<img src="../images/avatar.png" class="rounded-circle img-thumbnail  mx-auto" width="120">
 				<div class="card-block text-center p-2">
 					<h5 class="name">JOHN DOE</h5>
@@ -41,7 +41,7 @@
 					<a href="#"><span class="fa fa-instagram"></span></a>
 				</div>	
 			</div>
-			<div class="card pt-4 pb-2">
+			<div class="card pt-4 pb-2 border-0">
 				<img src="../images/avatar.png" class="rounded-circle img-thumbnail  mx-auto" width="120">
 				<div class="card-block text-center p-2">
 					<h5 class="name">JOHN DOE</h5>
@@ -53,7 +53,7 @@
 					<a href="#"><span class="fa fa-instagram"></span></a>
 				</div>	
 			</div>
-			<div class="card pt-4 pb-2">
+			<div class="card pt-4 pb-2 border-0">
 				<img src="../images/avatar.png" class="rounded-circle img-thumbnail  mx-auto" width="120">
 				<div class="card-block text-center p-2">
 					<h5 class="name">JOHN DOE</h5>
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 		<div class="card-deck mt-3">
-			<div class="card pt-4 pb-2">
+			<div class="card pt-4 pb-2 border-0">
 				<img src="../images/avatar.png" class="rounded-circle img-thumbnail  mx-auto" width="120">
 				<div class="card-block text-center p-2">
 					<h5 class="name">JOHN DOE</h5>
@@ -79,7 +79,7 @@
 					<a href="#"><span class="fa fa-instagram"></span></a>
 				</div>	
 			</div>
-			<div class="card pt-4 pb-2">
+			<div class="card pt-4 pb-2 border-0">
 				<img src="../images/avatar.png" class="rounded-circle img-thumbnail  mx-auto" width="120">
 				<div class="card-block text-center p-2">
 					<h5 class="name">JOHN DOE</h5>
@@ -91,7 +91,7 @@
 					<a href="#"><span class="fa fa-instagram"></span></a>
 				</div>	
 			</div>
-			<div class="card pt-4 pb-2">
+			<div class="card pt-4 pb-2 border-0">
 				<img src="../images/avatar.png" class="rounded-circle img-thumbnail  mx-auto" width="120">
 				<div class="card-block text-center p-2">
 					<h5 class="name">JOHN DOE</h5>

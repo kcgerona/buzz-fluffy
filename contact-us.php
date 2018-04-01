@@ -1,7 +1,7 @@
 <div class="row what-we-do align-items-center lets-work-together">
 	<div class="col-md-8 offset-md-2">
 		<h2 class="text-center text-light">Let’s work together</h2>
-		<h5 class="text-center text-light">START A PROJECT, SCHEDULE A TALK, OR JUST SAY HELLO</h5>
+		<h5 class="text-center text-light mt-5 font-13 letter-1 font-weight-bold">START A PROJECT, SCHEDULE A TALK, OR JUST SAY HELLO</h5>
 		
 		<form class="mt-5">
 			<div class="form-group row mb-4">
@@ -35,6 +35,8 @@
 				<div class="col-md-6">
 					<select class="form-control custom-select">
 						<option class="disabled">How did you hear about us?</option>
+						<option>From someone</option>
+						<option>Internet</option>
 					</select>
 				</div>
 			</div>
@@ -47,11 +49,11 @@
 				<div class="col-md-8">
 					<div class="custom-control custom-checkbox">
 					  <input type="checkbox" class="custom-control-input" id="customCheck1">
-					  <label class="custom-control-label text-light" for="customCheck1">Sign me up for the latest news, events, and more</label>
+					  <label class="custom-control-label text-light font-13" for="customCheck1">Sign me up for the latest news, events, and more</label>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<button type="submit" class="btn border border-light pl-5 pr-5 btn-outline-info text-light float-right">Submit</button>
+					<button type="submit" class="btn rounded-0 border border-light pb-2 pt-2 pl-5 pr-5 btn-outline-info text-light float-right uppercase font-11 font-weight-bold letter-1">Submit</button>
 				</div>
 			</div>
 		</form>
@@ -67,14 +69,20 @@
 	<div class="col-md-6 pl-5 pr-5 d-block">
 		<div class="mx-auto w-50">
 			
-		<h4 class="align-middle">STUDIO</h4>
-		<h5 class="align-middle">1000 Z. Tadtad St. Malaya,  <br/>Cebu City, Philippines, 6000</h5>
+		<h4 class="align-middle font-13 text-l-gray letter-1">STUDIO</h4>
+		<h5 class="align-middle mt-4">1000 Z. Tadtad St. Malaya,  <br/>Cebu City, Philippines, 6000</h5>
 
 		<p class="p-2 align-middle">
-			<span class="fa fa-phone"></span>&nbsp;  +639123456789 <br>
-			<span class="fa fa-envelope"></span>&nbsp;  youremail@gmail.com
+			<span class="d-block font-weight-bold letter-1">
+				<span class="fa fa-phone text-l-gray"></span>
+				&nbsp;&nbsp;  +639123456789 
+			</span>
+			<span class="d-block font-weight-bold letter-1">
+				<span class="fa fa-envelope text-l-gray"></span>
+				&nbsp;&nbsp;  youremail@gmail.com 
+			</span>
+			<a href="#" class="font-weight-bold align-middle btn-link font-9 letter-1 text-dark mt-5 d-block">GET DIRECTIONS</a>
 		</p>
-		<a href="#" class="align-middle btn-link">GET DIRECTIONS</a>
 		</div>
 	</div>
 </div>

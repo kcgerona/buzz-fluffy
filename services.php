@@ -4,6 +4,8 @@
 		<h1 class="text-center">WE ARE BUZZOOKA</h1>
 		<h4 class="text-center">YOUR PERSONAL MARKETING AUTOMATOR</h4>
 	</div>
+	<img src="../images/service-banner-blue.png?v=1" class="hidden" />
+	<img src="../images/service-banner-red.png?v=1" class="hidden" />
 </div>
 
 <div class="row services-content align-items-top">

@@ -34,7 +34,13 @@ $( document ).ready(function() {
 	    	$(this).find(".fa").removeClass("fa-close").addClass("fa-search");
 	    }
     })
-
+    $( ".what-we-do .card" ).hover(
+		function() {
+			$( this ).addClass("shadow");
+		}, function() {
+			$( this ).removeClass('shadow');
+		}
+	);
     $('#sub-menu').on('show.bs.collapse', function (e) {
 		$(".has-sub-menu").addClass("active")
 		$('.has-sub-menu').find(".nav-caret").removeClass("fa-angle-down").addClass("fa-angle-up");

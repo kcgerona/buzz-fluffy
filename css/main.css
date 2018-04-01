@@ -81,6 +81,9 @@ body {
 .text-l-gray {
 	color: #959595;
 }
+.text-gray {
+	color: #4d4d4d !important;
+}
 .bg-white {
 	background: #fff;
 }
@@ -90,8 +93,62 @@ body {
 .btn-info { 
 	background-color: #00a7e5 !important; 
 }
+.btn-primary {
+	background-color: #3b589e !important;
+}
 .hidden { 
 	display: none;
+}
+.underline-blue {
+	background : #00a7e5;
+	margin-top: 1px;
+	width: 65px;
+	height: 5px;
+	display: block;
+}
+.underline-white {
+	background : #fff;
+	margin-top: 1px;
+	width: 65px;
+	height: 5px;
+	display: block;
+}
+.font-9 { font-size: 9px; }
+.font-10 { font-size: 10px; }
+.font-11 { font-size: 11px; }
+.font-12 { font-size: 12px; }
+.font-13 { font-size: 13px; }
+.font-14 { font-size: 14px; }
+.font-15 { font-size: 15px; }
+.font-16 { font-size: 16px; }
+.font-20 { font-size: 20px; }
+.font-25 { font-size: 25px; }
+.font-30 { font-size: 30px; }
+.font-35 { font-size: 35px; }
+.font-40 { font-size: 40px; }
+.font-45 { font-size: 45px; }
+
+.letter-1 { letter-spacing: 1px; }
+.letter-2 { letter-spacing: 2px; }
+.letter-3 { letter-spacing: 3px; }
+
+.uppercase { text-transform: uppercase; }
+.shadow {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  }
+}
+.shadow-nohover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.zoom {
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.1);
 }
 /***********************************************
 * 				HOMEPAGE
@@ -151,7 +208,7 @@ body {
 .what-other-say-about-us .carousel .carousel-control-next, 
 .what-other-say-about-us .carousel .carousel-control-prev {
 	height: 50px;
-	top: 25%;
+	top: 45%;
 	background: #fff;
 	border-radius: 50%;
 	width: 52px;
@@ -161,7 +218,15 @@ body {
 	color: #00a7e5;
 }
 .what-other-say-about-us .carousel .card {
+	background-color: transparent;
+	background-image: url("../images/carousel-cover.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 	border-radius: 25px;
+}
+.what-other-say-about-us .carousel .card::before {
+	border: 2px solid black;
 }
 
 .what-other-say-about-us .carousel .card-background-div {
@@ -211,7 +276,8 @@ body {
 	color: #6e6e6e;
 }
 .about-us-banner button {
-	font-size: 14px;
+	font-size: 12px;
+	font-weight: bold;
 }
 
 .our-story{
@@ -240,9 +306,12 @@ body {
 }
 .our-team .position{
 	color: #999999;
+	display: block;
+	margin-bottom: 30px;
 }
 .our-team .fa {
 	color: #000;
+	margin-right: 5px;
 }
 .our-team .fa:hover {
 	color: #989898;
@@ -257,6 +326,15 @@ body {
 }
 .lets-work-together .form-control {
 	height: 50px;
+	color: #4c525a;
+}
+.lets-work-together select {
+	height: 50px !important;
+}
+.lets-work-together select option {
+	line-height: 40px !important;
+font-size: 50px !important;
+padding: 20px 0px;
 }
 .lets-work-together textarea.form-control{
 	min-height: 100px;
@@ -274,6 +352,8 @@ body {
 }
 .blog-all .each-blog p {
 	color: #959595;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .blog-all .each-blog img {
 	max-height: 300px;
@@ -284,7 +364,7 @@ body {
 }
 
 .latest-blog-posts h1 {
-	font-size: 25px;
+	font-size: 23px;
 }
 .latest-blog-posts .list-group .list-group-item {
 	line-height: 3px;
@@ -303,9 +383,11 @@ body {
 .latest-blog-posts .blog-link-group {
 	margin-bottom: 20px;
 	width: 75%;
+	height: 80px;
 }
 .latest-blog-posts .blog-link-group .category {
 	color: #959595;
+	text-transform: uppercase;
 }
 .latest-blog-posts .blog-link-group a {
 	text-decoration: none;
@@ -466,9 +548,18 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+.slider-wrapper .nav-left,
+.slider-wrapper .nav-right{
+	background-color: gray;
+	padding:20px;
+	border-radius: 50%;
+}
 .our-portfolio {
 	height: 500px;
 	background-color: #f4f4f4;
+}
+.our-portfolio p {
+	margin-bottom: 5px;
 }
 .about-us {
 	height: 700px;
@@ -478,13 +569,29 @@ body {
 	background-position: center;
 	background-color: #00a7e5;
 }
+.about-us .media {
+	height: 120px;
+}
+.about-us .mobile-content-wrapper p{
+	margin-top: 100px;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
 .qoutes {
 	height: 250px;
 	background-color: #fff;
 }
-.benefits {
-	background-color: #fcfcfc;
+.qoutes .card {
+	background-color: #fafafa;
 }
+.benefits {
+	height: 100%;
+	background-color: #fafafa;
+}
+.benefits .row {
+	height: 350px;
+}
+
 .want-to-know-more {
 	background-color: #086bbf;
 	height: 150px;
@@ -493,7 +600,7 @@ body {
 * 				FOOTER
 /***********************************************/
 .footer {
-	height: 493px;
+	height: 430px;
 	padding-left: 5%;
 	padding-right: 5%;
 	background: url('../images/footer-2.png');
@@ -524,11 +631,6 @@ body {
 .footer .list-group-horizontal .list-group-item a{
 	color: gray;
 }
-.footer .list-group-horizontal .list-group-item a:not(.badge){
-	text-transform: uppercase;
-	font-size: 14px;
-}
-
 .footer .list-group-horizontal .list-group-item a:hover {
 	color: #fff;
 	text-decoration: none;
@@ -544,7 +646,9 @@ body {
 	color: gray;
 	background-color: white;
 }
-
+.footer-links-wrapper {
+	height: 100px;
+}
 
 
 
