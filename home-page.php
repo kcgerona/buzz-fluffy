@@ -54,6 +54,8 @@
 	</div>
 </div>
 
+<div class="clearfix"></div>
+
 <div class="row align-items-center what-other-say-about-us">
 	<div class="col-md-8 offset-md-2">
 		<h1 class="text-center mb-5 mt-5 text-light">
@@ -64,36 +66,39 @@
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
 			 	<img src="../images/avatar.png" class="rounded-circle mx-auto d-block" width="150">
-				<div class="w-50 card mx-auto">
-					<div class="card-block pt-5 pb-4 pl-4 pr-4">
-						<h4 class="text-center font-20">JOHN DOE</h4>
-						<h6 class="text-center text-info font-15">Marketing</h6>
-						<p class="text-justify text-l-gray font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+				<div class="card mx-auto border-0">
+					<div class="card-block">
+						<h4 class="text-center">JOHN DOE</h4>
+						<h6 class="text-center text-info">Marketing</h6>
+						<p class="text-justify font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
 					</div>
 				</div>
-			  	<div class="card-background-div"></div>
+			  	<!-- <div class="card-background-div"></div> -->
 		    </div>
 		    <div class="carousel-item">
 			 	<img src="../images/avatar.png" class="rounded-circle mx-auto d-block" width="150">
-				<div class="w-50 card mx-auto">
-					<div class="card-block pt-5 pb-4 pl-4 pr-4">
-						<h4 class="text-center font-20">JOHN DOE</h4>
-						<h6 class="text-center text-info font-15">CEO</h6>
-						<p class="text-justify text-l-gray font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+				<div class="card mx-auto border-0">
+					<div class="card-block">
+						<h4 class="text-center">JOHN DOE</h4>
+						<h6 class="text-center text-info">CEO</h6>
+						<p class="text-justify font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
 					</div>
 				</div>
-				<div class="card-background-div"></div>
+				<!-- <div class="card-background-div"></div> -->
 		    </div>
 		    <div class="carousel-item">
 			 	<img src="../images/avatar.png" class="rounded-circle mx-auto d-block" width="150">
-				<div class="w-50 card mx-auto">
-					<div class="card-block pt-5 pb-4 pl-4 pr-4">
-						<h4 class="text-center font-20">JOHN DOE</h4>
-						<h6 class="text-center text-info font-15">COO</h6>
-						<p class="text-justify text-l-gray font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+				<div class="card mx-auto border-0">
+					<div class="card-block">
+						<h4 class="text-center">JOHN DOE</h4>
+						<h6 class="text-center text-info">COO</h6>
+						<p class="text-justify font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
 					</div>
 				</div>
-				<div class="card-background-div"></div>
+				<!-- <div class="card-background-div"></div> -->
 		  	</div>
 		  </div>
 		  <a class="carousel-control-prev bg-light" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -107,6 +112,8 @@
 		</div>
 	</div>
 </div>
+
+<div class="clearfix"></div>
 
 <div class="row align-items-center lets-connect">
 	<div class="col-md-6 offset-md-3">

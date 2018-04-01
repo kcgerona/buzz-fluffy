@@ -206,7 +206,7 @@
 				<p class="text-l-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-				<button class="btn btn-primary btn-md pl-4 pr-4 font-13 pb-3 pt-3 mt-3">READ MORE</button>
+				<button class="btn btn-primary btn-md pl-4 pr-4 font-13 pb-2 pt-2 mt-3">READ MORE</button>
 			</div>
 		</div>
 		<div class="clearfix"></div>
@@ -218,7 +218,7 @@
 				<p class="text-l-gray text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-				<button class="btn btn-primary btn-md pl-4 pr-4 float-right font-13 pb-3 pt-3 mt-3">READ MORE</button>
+				<button class="btn btn-primary btn-md pl-4 pr-4 float-right font-13 pb-2 pt-2 mt-3">READ MORE</button>
 			</div>
 			<div class="col-md-6">
 				<img src="../images/mac1.jpg" class="img-fluid d-block mx-auto">
@@ -236,7 +236,7 @@
 				<p class="text-l-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-				<button class="btn btn-primary btn-md pl-4 pr-4 font-13 pb-3 pt-3 mt-3">READ MORE</button>
+				<button class="btn btn-primary btn-md pl-4 pr-4 font-13 pb-2 pt-2 mt-3">READ MORE</button>
 			</div>
 		</div>
 	</div>
@@ -246,44 +246,47 @@
 
 <div class="row align-items-center what-other-say-about-us">
 	<div class="col-md-8 offset-md-2">
-		<h1 class="text-center mb-5 mt-5 text-light">WHAT <b>OTHERS</b> SAY ABOUT <b>US</b></h1>
+		<h1 class="text-center mb-5 mt-5 text-light">
+			WHAT <b>OTHERS</b> SAY ABOUT <b>US</b>
+			<span class="underline-white mx-auto mt-3"></span>
+		</h1>
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
 			 	<img src="../images/avatar.png" class="rounded-circle mx-auto d-block" width="150">
-				<div class="w-50 card mx-auto">
-					<div class="card-block pt-5 pb-4 pl-4 pr-4">
+				<div class="card mx-auto border-0">
+					<div class="card-block">
 						<h4 class="text-center">JOHN DOE</h4>
 						<h6 class="text-center text-info">Marketing</h6>
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<p class="text-justify font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
 					</div>
 				</div>
-			  	<div class="card-background-div"></div>
+			  	<!-- <div class="card-background-div"></div> -->
 		    </div>
 		    <div class="carousel-item">
 			 	<img src="../images/avatar.png" class="rounded-circle mx-auto d-block" width="150">
-				<div class="w-50 card mx-auto">
-					<div class="card-block pt-5 pb-4 pl-4 pr-4">
+				<div class="card mx-auto border-0">
+					<div class="card-block">
 						<h4 class="text-center">JOHN DOE</h4>
 						<h6 class="text-center text-info">CEO</h6>
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<p class="text-justify font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
 					</div>
 				</div>
-				<div class="card-background-div"></div>
+				<!-- <div class="card-background-div"></div> -->
 		    </div>
 		    <div class="carousel-item">
 			 	<img src="../images/avatar.png" class="rounded-circle mx-auto d-block" width="150">
-				<div class="w-50 card mx-auto">
-					<div class="card-block pt-5 pb-4 pl-4 pr-4">
+				<div class="card mx-auto border-0">
+					<div class="card-block">
 						<h4 class="text-center">JOHN DOE</h4>
 						<h6 class="text-center text-info">COO</h6>
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<p class="text-justify font-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
 					</div>
 				</div>
-				<div class="card-background-div"></div>
+				<!-- <div class="card-background-div"></div> -->
 		  	</div>
 		  </div>
 		  <a class="carousel-control-prev bg-light" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -302,10 +305,10 @@
 <div class="row align-items-center want-to-know-more">
 	<div class="col-md-4 offset-md-3">
 		<h3 class="text-light m-0 p-0">WANT TO KNOW MORE?</h3>
-		<h1 class="text-light m-0 p-0">LET'S CONNECT.</h1>
+		<h1 class="text-light m-0 p-0 font-weight-bold">LET'S CONNECT.</h1>
 	</div>
 	<div class="col-md-2">
-		<button class="btn btn-lg rounded-0 border-light text-light btn-outline-secondary mx-auto d-block mt-4">CONTACT US</button>
+		<a href="/?page=contact-us" class="btn btn-lg rounded-0 border-light text-light btn-outline-secondary mx-auto d-block mt-4">CONTACT US</a>
 	</div>
 </div>
 <script type="text/javascript" src="../js/jssor.slider-27.1.0.min.js"></script>

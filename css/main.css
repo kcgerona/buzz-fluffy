@@ -199,7 +199,7 @@ body {
 }
 .what-other-say-about-us .carousel img {
 	position: relative;
-	top: 40px;
+	top: 65px;
 	z-index: 5;
 	border: 5px solid #fff;
 	width: 120px;
@@ -208,7 +208,7 @@ body {
 .what-other-say-about-us .carousel .carousel-control-next, 
 .what-other-say-about-us .carousel .carousel-control-prev {
 	height: 50px;
-	top: 45%;
+	top: 50%;
 	background: #fff;
 	border-radius: 50%;
 	width: 52px;
@@ -224,9 +224,13 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	border-radius: 25px;
+	border: none;
+	height: 263px;
+	width: 600px;
 }
-.what-other-say-about-us .carousel .card::before {
-	border: 2px solid black;
+
+.what-other-say-about-us .carousel .card .card-block {
+	padding: 75px;
 }
 
 .what-other-say-about-us .carousel .card-background-div {
