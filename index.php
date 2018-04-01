@@ -17,40 +17,42 @@
 	    <div class="container-fluid p-0">
 
 <?php 
-    require_once 'header.php';
     require_once 'function.php';
     $dest = isset($_GET['page']) ? $_GET['page'] : "home";
-
+    $file = "";
+    $active = "";
     switch ($dest) {
         case 'about-us':
-            require_once 'about-us.php';
+            $file = 'about-us';
             break;
         
         case 'contact-us':
-            require_once 'contact-us.php';
+            $file = 'contact-us';
             break;
 
         case 'blogs':
-            require_once 'blog-all.php';
+            $file = 'blog-all';
             break;
 
         case 'blog':
-            require_once 'blog-each.php';
+            $file = 'blog-each';
             break;
 
         case 'services':
-            require_once 'services.php';
+            $file = 'services';
             break;
 
         case 'service':
-            require_once 'services-landing.php';
+            $file = 'services-landing';
             break;
 
         default:
-            require_once 'home-page.php';
+            $file = 'home-page';
             break;
     }
     
+    require_once 'header.php';
+    require_once  $file.".php";
     require_once 'footer.php';
 ?>
 	    </div>

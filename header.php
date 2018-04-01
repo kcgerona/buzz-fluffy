@@ -9,14 +9,14 @@
   </button> -->
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav animate side-nav">
-      <li class="nav-item active">
+      <li class="nav-item <?=set_active('home-page', $file)?>">
         <a class="nav-link" href="/?page=home">HOME
         </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?=set_active('about-us', $file)?>">
         <a class="nav-link" href="/?page=about-us">ABOUT</a>
       </li>
-      <li class="nav-item has-sub-menu">
+      <li class="nav-item has-sub-menu <?=set_active('services', $file)?>">
         <a class="nav-link" data-toggle="collapse" href="#sub-menu" aria-expanded="false" aria-controls="sub-menu">SERVICES <span class="float-right fa fa-angle-down nav-caret"></span></a>
       </li>
       <div class="collapse w-100" id="sub-menu">
@@ -32,10 +32,10 @@
           </li>
         </ul>
       </div>
-      <li class="nav-item">
+      <li class="nav-item <?=set_active('blog-all', $file)?>">
         <a class="nav-link" href="/?page=blogs">BLOG</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?=set_active('contact-us', $file)?>">
         <a class="nav-link" href="/?page=contact-us">CONTACT</a>
       </li>
     </ul>

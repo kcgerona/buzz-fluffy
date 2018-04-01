@@ -1,5 +1,5 @@
 <div class="row align-items-center single-blog-header">
-	
+
 </div>
 
 <div class="row single-blog-content mb-5">
@@ -75,10 +75,10 @@
 			<a class="text-l-gray btn-link" href="#"><span class="fa fa-facebook-square fa-2x"></span></a>&nbsp;
 			<a class="text-l-gray btn-link" href="#"><span class="fa fa-twitter fa-2x"></span></a>
 		</div>
-		<div class="banner-1 mb-5 align-items-center">
+		<div class="ban-ner mb-5 align-items-center">
 			<img src="http://via.placeholder.com/250x250?text=banner%2001" class="img-fluid">
 		</div>
-		<div class="banner-2 mb-5 align-items-center">
+		<div class="ban-ner mb-5 align-items-center">
 			<img src="http://via.placeholder.com/250x650?text=banner%2002" class="img-fluid">
 		</div>
 	</div>

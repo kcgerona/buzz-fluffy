@@ -11,7 +11,7 @@
 				<h6 class="text-l-gray uppercase">JOBS</h6>
 				<h3>Summer 2018 Internship</h3>
 				<p>We’re looking for graphic designers, animators, editors, writers and many more to join our team for the summer. No formal education required—just good work and a good attitude. International applicants welcome.</p>
-				<a href="/?page=blog" class="btn btn-primary pl-4 pr-4 pb-2 pt-2 font-13"><small>READ MORE</small></a>
+				<a href="/?page=blog" class="btn btn-primary pl-4 pr-4 pb-2 pt-2 font-13">READ MORE</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -23,7 +23,7 @@
 				<h6 class="text-l-gray uppercase">JOBS</h6>
 				<h3>Motion Designer Wanted</h3>
 				<p>Junior to Mid-level Motion Designer Wanted. Buzzooka is looking for a full-time motion designer to join our Cebu-based team. You will work with our design team, project manager and creative directors to help produce design work for motion and branding projects. This job is 10% research, 30% brainstorming, 60% making high quality style frames.</p>
-				<a href="/?page=blog" class="btn btn-primary pl-4 pr-4 pb-2 pt-2 font-13"><small>READ MORE</small></a>
+				<a href="/?page=blog" class="btn btn-primary pl-4 pr-4 pb-2 pt-2 font-13">READ MORE</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -35,7 +35,7 @@
 				<h6 class="text-l-gray uppercase">NEWS</h6>
 				<h3>SPJA Selects Buzzooka as Agency of Record</h3>
 				<p>The Society for the Promotion of Japanese Animation (SPJA), has chosen Buzzooka as the creative agency of record for all of its brands including SPJA, Anime Expo, and Project Anime. Buzzooka will be responsible for: brand strategy, traditional and digital marketing, identity refresh, naming, copywriting, web design and development, </p>
-				<a href="/?page=blog" class="btn btn-primary pl-4 pr-4 pb-2 pt-2 font-13"><small>READ MORE</small></a>
+				<a href="/?page=blog" class="btn btn-primary pl-4 pr-4 pb-2 pt-2 font-13">READ MORE</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
