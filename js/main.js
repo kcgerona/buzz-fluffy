@@ -7,8 +7,8 @@ $( document ).ready(function() {
     	/*$('html, body').animate({
 	        scrollTop: $("#wrapper").offset().top
 	    }, { duration: "fast", queue: false });
-    	
 	    */
+	    console.log("eloo")
 	    e.preventDefault();
 	});
 

@@ -7,7 +7,7 @@
 			<div class="col-md-6">
 				<img src="../images/blog1.jpg" class="img-fluid"/>
 			</div>
-			<div class="col-md-6 pl-5">
+			<div class="col-md-6 pl-md-5">
 				<h6 class="text-l-gray uppercase">JOBS</h6>
 				<h3>Summer 2018 Internship</h3>
 				<p>We’re looking for graphic designers, animators, editors, writers and many more to join our team for the summer. No formal education required—just good work and a good attitude. International applicants welcome.</p>
@@ -19,7 +19,7 @@
 			<div class="col-md-6">
 				<img src="../images/blog2.jpg" class="img-fluid"/>
 			</div>
-			<div class="col-md-6 pl-5">
+			<div class="col-md-6 pl-md-5">
 				<h6 class="text-l-gray uppercase">JOBS</h6>
 				<h3>Motion Designer Wanted</h3>
 				<p>Junior to Mid-level Motion Designer Wanted. Buzzooka is looking for a full-time motion designer to join our Cebu-based team. You will work with our design team, project manager and creative directors to help produce design work for motion and branding projects. This job is 10% research, 30% brainstorming, 60% making high quality style frames.</p>
@@ -31,7 +31,7 @@
 			<div class="col-md-6">
 				<img src="../images/blog3.jpg" class="img-fluid"/>
 			</div>
-			<div class="col-md-6 pl-5">
+			<div class="col-md-6 pl-md-5">
 				<h6 class="text-l-gray uppercase">NEWS</h6>
 				<h3>SPJA Selects Buzzooka as Agency of Record</h3>
 				<p>The Society for the Promotion of Japanese Animation (SPJA), has chosen Buzzooka as the creative agency of record for all of its brands including SPJA, Anime Expo, and Project Anime. Buzzooka will be responsible for: brand strategy, traditional and digital marketing, identity refresh, naming, copywriting, web design and development, </p>
@@ -46,8 +46,8 @@
 
 <div class="row align-items-center latest-blog-posts">
 	<div class="col-md-10 offset-md-1">
-		<h1 class="mt-3 mb-5 font-14">Latest Blog Posts</h1>
-		<div class="row mt-5">	
+		<h1 class="mt-md-3 mb-md-5 font-14">Latest Blog Posts</h1>
+		<div class="row mt-md-5">	
 			<div class="col-md-3">
 				<ul class="list-group pl-0 ml-0">
 					<li class="list-group-item border-0 bg-transparent active"><a class="btn-link" href="#">ALL POSTS</a></li>
@@ -62,6 +62,7 @@
 					<li class="list-group-item border-0 bg-transparent"><a class="btn-link font-12 font-weight-bold" href="#">PRESS</a></li>
 					<li class="list-group-item border-0 bg-transparent"><a class="btn-link font-12 font-weight-bold" href="#">SPEAKING</a></li>
 				</ul>
+				<hr class="hide-on-non-mobile"/>
 			</div>
 			<div class="col-md-9">
 				<div class="row">
@@ -129,26 +130,25 @@
 							</a>
 						</div>
 					</div>
-				</div>
-
-				<div class="row mt-4 mb-5">
-					<nav aria-label="latest-blog-posts-pagination">
-						<ul class="pagination pagination-sm">
-							<li class="page-item disabled">
-								<a class="page-link" href="#!" tabindex="-1">Previous</a>
-							</li>
-							<li class="page-item active"><a class="page-link" href="#!">1</a></li>
-							<li class="page-item"><a class="page-link" href="#!">2</a></li>
-							<li class="page-item"><a class="page-link" href="#!">3</a></li>
-							<li class="page-item"><a class="page-link" href="#!">4</a></li>
-							<li class="page-item"><a class="page-link" href="#!">5</a></li>
-							<li class="page-item"><a class="page-link" href="#!">...</a></li>
-							<li class="page-item"><a class="page-link" href="#!">9</a></li>
-							<li class="page-item">
-								<a class="page-link" href="#!">Next</a>
-							</li>
-						</ul>
-					</nav>
+					<div class="col-md-12">
+						<nav aria-label="latest-blog-posts-pagination" >
+							<ul class="pagination pagination-sm">
+								<li class="page-item disabled">
+									<a class="page-link" href="#!" tabindex="-1">Previous</a>
+								</li>
+								<li class="page-item active"><a class="page-link" href="#!">1</a></li>
+								<li class="page-item"><a class="page-link" href="#!">2</a></li>
+								<li class="page-item"><a class="page-link" href="#!">3</a></li>
+								<li class="page-item"><a class="page-link" href="#!">4</a></li>
+								<li class="page-item"><a class="page-link" href="#!">5</a></li>
+								<li class="page-item"><a class="page-link" href="#!">...</a></li>
+								<li class="page-item"><a class="page-link" href="#!">9</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#!">Next</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
 				</div>
 			</div>
 		</div>

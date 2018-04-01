@@ -106,59 +106,60 @@
 </div>
 <div class="clearfix"></div>
 <div class="row align-items-end about-us">
-	<div class="col-md-8 offset-md-2">
+	<div class="col-md-8 offset-md-2 pb-sm-5">
 		<h1 class="text-center text-light">ABOUT US</h1>
 	</div>
+	<div class="clearfix"></div>
 	<div class="col-md-8 offset-md-2">
 		<div class="row text-light">
 			<div class="col-md-4 pr-5">
-				<div class="media mb-4">
+				<div class="media mb-md-4">
 				  <div class="media-body">
-				    <h5 class="mt-0 mb-1 text-right">Media object</h5>
+				    <h5 class="mt-0 mb-1 text-md-right">Media object</h5>
 				    <small class="text-right">Cras sit amet nibh libero, in gravida nulla. congue felis in faucibus.</small>
 				  </div>
 				  <img class="ml-3" src="../images/icon1.png" width="50">
 				</div>
-				<div class="media mb-4">
+				<div class="media mb-md-4">
 				  <div class="media-body">
-				    <h5 class="mt-0 mb-1 text-right">Media object</h5>
+				    <h5 class="mt-0 mb-1 text-md-right">Media object</h5>
 				    <small class="text-right">Cras sit amet nibh libero, in gravida nulla, tempus viverra turpis.</small>
 				  </div>
 				  <img class="ml-3" src="../images/icon2.png" width="50">
 				</div>
-				<div class="media mb-4">
+				<div class="media mb-md-4">
 				  <div class="media-body">
-				    <h5 class="mt-0 mb-1 text-right">Media object</h5>
+				    <h5 class="mt-0 mb-1 text-md-right">Media object</h5>
 				    <small class="text-right">Cras sit amet nibh libero, in gravida nulla. congue felis in faucibus.</small>
 				  </div>
 				  <img class="ml-3" src="../images/icon3.png" width="50">
 				</div>
 			</div>
 
-			<div class="col-md-4 pt-5 pl-5 pr-5 mobile-content-wrapper">
+			<div class="col-md-4 pt-md-5 pl-md-5 pr-md-5 mb-sm-3 mobile-content-wrapper">
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in repr. Occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<button class="btn btn-md btn-primary btn-block pt-2 pb-2 font-weight-bold font-13">OUR TEAM</button>
+				<button class="btn btn-md btn-primary btn-block pt-md-2 pb-md-2 font-weight-bold font-13">OUR TEAM</button>
 			</div>
 
 			<div class="col-md-4 pl-5">
-				<div class="media mb-4">
+				<div class="media mb-md-4">
 				  <img class="mr-3" src="../images/icon4.png" width="50">
 				  <div class="media-body">
 				    <h5 class="mt-0">Media heading</h5>
 				    <small>Cras sit amet nibh libero, in gravida nulla, tempus viverra turpis.</small>
 				  </div>
 				</div>
-				<div class="media mb-4">
+				<div class="media mb-md-4">
 				  <img class="mr-3" src="../images/icon5.png" width="50">
 				  <div class="media-body">
 				    <h5 class="mt-0">Media heading</h5>
 				    <small>Cras sit amet nibh libero, in gravida nulla. congue felis in faucibus.</small>
 				  </div>
 				</div>
-				<div class="media mb-4">
+				<div class="media mb-md-4">
 				  <img class="mr-3" src="../images/icon6.png" width="50">
 				  <div class="media-body">
 				    <h5 class="mt-0">Media heading</h5>
@@ -195,7 +196,7 @@
 
 <div class="row benefits">
 	<div class="col-md-8 offset-md-2">
-		<div class="row mb-5 align-items-center">
+		<div class="row mb-md-5 align-items-center">
 			<div class="col-md-6">
 				<img src="../images/tablet1.jpg" class="img-fluid d-block mx-auto" width="250">
 			</div>
@@ -206,28 +207,30 @@
 				<p class="text-l-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-				<button class="btn btn-primary btn-md pl-4 pr-4 font-13 pb-2 pt-2 mt-3">READ MORE</button>
+				<button class="btn btn-primary btn-md pl-md-4 pr-md-4 font-13 pb-md-2 pt-md-2 mt-md-3">READ MORE</button>
 			</div>
+			<div class="clearfix"></div>
 		</div>
-		<div class="clearfix"></div>
-		<div class="row mb-5 align-items-center">
+		<hr class="hide-on-mobile">
+		<div class="row mb-md-5 align-items-center">
 			<div class="col-md-6">
-				<h1 class="text-right font-30"><span class="text-gray">BENEFITS</span> <b>B</b></h1>
-				<p class="text-l-gray text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h1 class="text-md-right font-30"><span class="text-gray">BENEFITS</span> <b>B</b></h1>
+				<p class="text-l-gray text-md-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore.</p>
-				<p class="text-l-gray text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p class="text-l-gray text-md-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-				<button class="btn btn-primary btn-md pl-4 pr-4 float-right font-13 pb-2 pt-2 mt-3">READ MORE</button>
+				<button class="btn btn-primary btn-md pl-md-4 pr-md-4 float-md-right font-13 pb-md-2 pt-md-2 mt-md-3">READ MORE</button>
 			</div>
 			<div class="col-md-6">
-				<img src="../images/mac1.jpg" class="img-fluid d-block mx-auto">
+				<img src="../images/mac1.jpg" class="img-fluid d-md-block mx-auto">
 			</div>
+			<div class="clearfix"></div>
 		</div>
-		<div class="clearfix"></div>
-		<div class="row mb-5 align-items-center">
+		<hr class="hide-on-mobile">
+		<div class="row mb-md-5 align-items-center">
 			<div class="col-md-6">
-				<img src="../images/macbook1.jpg" class="img-fluid d-block mx-auto">
+				<img src="../images/macbook1.jpg" class="img-fluid d-md-block mx-auto">
 			</div>
 			<div class="col-md-6">
 				<h1 class="font-30"><span class="text-gray">BENEFITS</span> <b>C</b></h1>
@@ -238,6 +241,7 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 				<button class="btn btn-primary btn-md pl-4 pr-4 font-13 pb-2 pt-2 mt-3">READ MORE</button>
 			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>

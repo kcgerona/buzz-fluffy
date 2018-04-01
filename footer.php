@@ -74,7 +74,8 @@
 	</div>
 	<div class="row mb-0 align-items-center footer-links-wrapper">
 
-		<a href="/"><img src="../images/logo-white.png" class="d-inline-block ml-4 mt-0" width="250" /></div>
+		<a href="/"><img src="../images/logo-white.png" class="d-inline-block ml-4 mt-md-0 mt-sm-3" width="250" /></div>
+
 		<ul class="list-group-horizontal d-inline-block">
 			<li class="list-group-item bg-transparent border-0 text-light "><a href="#" class="btn-link font-13">&copy; Buzzooka</a></li>
 			<li class="list-group-item bg-transparent border-0 text-light "><a href="#" class="btn-link font-13">Terms</a></li>

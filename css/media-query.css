@@ -2,48 +2,16 @@
 /***********************************************
 * 				MEDIA QUERY
 /***********************************************/
-@media(min-width:992px)  {
-
-	.leftmenutrigger {
-		display: block;
-		margin: 7px 20px 4px 0;
-		cursor: pointer;
-	}
-	#wrapper {
-		padding: 90px 15px 0px 15px; 
-	}
-	.navbar-nav.side-nav.open  {
-		left:0;
-	}
-	.navbar-nav.side-nav {
-		background: #212f4f;
-		box-shadow: 2px 1px 2px rgba(0,0,0,.1);
-		position:fixed;
-		top:56px;
-		flex-direction: column!important;
-		left:-320px;
-		width:300px;
-		overflow-y:auto;
-		bottom:0;
-		overflow-x:hidden;
-		padding-bottom:40px;
-		/*max-height: 499px;*/
-	}
-	.navbar-expand-lg .navbar-nav .sub-menu li {
-		text-indent: 20px;
-		border-top: 1px solid #2e4376;
-		background-color: #15213b;
-	}
-}
 
 @media (min-width:375px) and (max-width: 992px)  {
 	.navbar-brand {
-		display: inline-block;
-		margin-left: 25%;
+		display: flex;
+		margin-left: auto;
 		margin-right: auto ;
 
 	}
 	.row {
+		height: unset;
 		height: 100%;
 	}
 	.row :not(.carousel) .card {
@@ -51,22 +19,101 @@
 		margin-left: 2%;
 		margin-right: 2%;
 	}
+	.services-banner,
 	.header-banner {
 		background-size: 100% 100%;
 		height: 300px;
 	}
+	.services-banner .header-banner-text,
 	.header-banner .header-banner-text {
 		margin-top: 110px;
 	}
+	.services-banner .header-banner-text h3,
 	.header-banner .header-banner-text h3{
 		font-size: 14px !important;
 	}
+	.services-banner .header-banner-text h1,
 	.header-banner .header-banner-text h1{
 		font-size: 30px !important;
 		margin-top: 10px;
 	}
+	.services-banner .header-banner-text h4,
 	.header-banner .header-banner-text h4{
 		font-size: 14px !important;
 		margin-top: 10px;
+	}
+	.services-content .dropdown-menu { 
+		transform: translate3d(0px, 62px, 0px) !important; 
+	}
+	.tools img, .analytics-report img {
+		margin-left: auto;
+		margin-right: auto;
+		right: unset;
+		width: 100%;
+		max-width: 200px;
+		display: flex;
+	}
+	.tools button, .analytics-report button {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.tools hr, .analytics-report hr, {
+		width: 100%;
+	}
+	.tools .align-items-center, .analytics-report .align-items-center {
+		height: unset;
+		padding-bottom: 5px !important;
+		padding-top:  5px !important;
+	}
+	.footer .list-group-horizontal {
+		padding-left: 0px;
+	}
+	.footer-links-wrapper {
+		height: unset;
+	}
+	.footer-links-wrapper img {
+		margin-top: 10px;
+	}
+	.services-landing-banner {
+		min-height: 180px;
+		background-size: contain;
+	}
+	.about-us {
+		background-image: none;
+		padding-top: 30px;
+	}
+	.about-us .mobile-content-wrapper {
+		display: none;
+	}
+	.qoutes, .benefits {
+		padding: 20px 5px;
+	}
+	.benefits .row {
+		height: unset;
+	}
+	.blog-all a.btn,
+	.benefits button {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.hide-on-non-mobile {
+		display: flex;
+	}
+	.want-to-know-more {
+		padding: 10px;
+	}
+	.latest-blog-posts-pagination {
+		height: 100px;
+		overflow: hidden;
+	}
+	.lets-work-together .form-group .col-md-6 {
+		margin-bottom: 15px;
+	}
+	.lets-work-together button.btn {
+		display: block;
+		margin-top: 10px;
+		width: 100%;
 	}
 }

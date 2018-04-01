@@ -1,5 +1,5 @@
 <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-white custom-toggler pl-5 pr-5">
-  <span class="navbar-toggler-icon leftmenutrigger"></span>
+  <span class="navbar-toggler-icon leftmenutrigger" data-toggle="collapse" data-target="#navbarText"></span>
   <a class="navbar-brand text-center" href="/">
     <img src="../images/logo-blue.png" class="img">
   </a>
@@ -8,7 +8,6 @@
     <span class="navbar-toggler-icon"></span>
   </button> -->
   <div class="collapse navbar-collapse" id="navbarText">
-
     <ul class="navbar-nav animate side-nav">
       <li class="nav-item active">
         <a class="nav-link" href="/?page=home">HOME
