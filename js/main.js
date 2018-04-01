@@ -53,7 +53,7 @@ $( document ).ready(function() {
 
     $('#search-dropdown').parents(".col-md-4").on('show.bs.dropdown', function (e) {
     	$("#search-dropdown .fa").addClass("fa-angle-up").removeClass("fa-angle-down");
-    	$(".services-banner").css({"background-image" :" url('../images/service-banner-green.png')"})
+    	$(".services-banner").css({"background-image" :" url('../images/service-banner-green.png?v=1')"})
 	})
 
 	$('#search-dropdown').parents(".col-md-4").on('hide.bs.dropdown', function (e) {
@@ -62,7 +62,7 @@ $( document ).ready(function() {
 
 	$('#social-dropdown').parents(".col-md-4").on('show.bs.dropdown', function (e) {
 		$("#social-dropdown .fa").addClass("fa-angle-up").removeClass("fa-angle-down");
-		$(".services-banner").css({"background-image" :" url('../images/service-banner-blue.png')"})
+		$(".services-banner").css({"background-image" :" url('../images/service-banner-blue.png?v=1')"})
 	})
 
 	$('#social-dropdown').parents(".col-md-4").on('hide.bs.dropdown', function (e) {
@@ -71,7 +71,7 @@ $( document ).ready(function() {
 
 	$('#visual-dropdown').parents(".col-md-4").on('show.bs.dropdown', function (e) {
 		$("#visual-dropdown .fa").addClass("fa-angle-up").removeClass("fa-angle-down");
-		$(".services-banner").css({"background-image" :" url('../images/service-banner-red.png')"})
+		$(".services-banner").css({"background-image" :" url('../images/service-banner-red.png?v=1')"})
 	})
 
 	$('#visual-dropdown').parents(".col-md-4").on('hide.bs.dropdown', function (e) {

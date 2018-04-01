@@ -1,7 +1,7 @@
 <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-white custom-toggler pl-5 pr-5">
   <span class="navbar-toggler-icon leftmenutrigger"></span>
-  <a class="navbar-brand text-center" href="#">
-    <img src="../images/logo-blue.png" class="">
+  <a class="navbar-brand text-center" href="/">
+    <img src="../images/logo-blue.png" class="img">
   </a>
   <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
     aria-expanded="false" aria-label="Toggle navigation">
