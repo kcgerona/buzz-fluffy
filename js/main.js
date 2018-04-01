@@ -8,7 +8,11 @@ $( document ).ready(function() {
 	        scrollTop: $("#wrapper").offset().top
 	    }, { duration: "fast", queue: false });
 	    */
-	    console.log("eloo")
+	   /* if($(this).hasClass("close-toggler") ){
+	    	$(this).removeClass("close-toggler")
+	    } else {
+	    	$(this).addClass("close-toggler")
+	    }*/
 	    e.preventDefault();
 	});
 
